@@ -1,0 +1,118 @@
+.banner{
+  height:400px;
+  width:1200px;
+  margin-bottom: 50px;
+}
+
+.container{
+  margin:0 auto;
+  width:800px
+}
+
+.container h1{
+  color:rgb(42, 7, 117)
+}
+
+.card-category {
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  margin-right: 20px;
+  margin-top: 7px;
+}
+
+.card-category h2{
+  color:rgb(216, 202, 202);
+}
+
+.card-product{
+  display:flex;
+  width: 300px;
+  height: 200px;
+  background-color: beige;
+  color:rgb(86, 39, 130);
+  align-items: center;
+  text-shadow: 0px 0px 1px rgba(52, 39, 39, 0.8);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  margin-top: 7px;
+  padding-left: 5px;
+}
+
+.card-product img{
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+}
+
+.card-product h3{
+  font-size:20;
+  font-weight: 700;
+
+}
+
+.card-product p {
+  font-size:10;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
+.card-trip{
+  height: 200px;
+  width: 300px;
+  background-color: rgb(225, 248, 204);
+  border-radius: 20px;
+  margin-top:7px;
+  margin-left:20px;
+  text-shadow: 0px 0px 1px rgba(111, 111, 112, 0.8);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card-trip img{
+  height: 120px;
+  width: 100%;
+  margin-top:0;
+  border-radius: 20px 20px 0 0;
+  justify-content: center;
+}
+
+.card-trip-info{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 9px;
+}
+
+.card-trip-info h2{
+  font-size:15px;
+  font-weight: 700px;
+}
+
+.card-trip-info p{
+  margin-top:2px;
+  font-size:5px;
+  margin-right:10px;
+}
+
+.all-cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.explaination{
+  margin-top: 100px;
+  color: rgb(76, 44, 105);
+}
+
+.footer{
+  display: flex;
+  margin-top: 70px;
+  color:rgb(43, 24, 97);
+  justify-content:right;
+}
